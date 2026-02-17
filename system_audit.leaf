@@ -1,0 +1,27 @@
+# LEAF Log File - Generation Date: 2024-05-20
+# Owner: System_Admin_Alpha
+
+[2024-05-20 08:00:12] | LEVEL: INFO | SRC: AuthModule | MSG: User 'admin' logged in successfully.
+[2024-05-20 08:05:45] | LEVEL: WARN | SRC: DB_Conn | MSG: Connection latency high (150ms).
+
+--- ESTA LINHA DEVE SER IGNORADA PELO PARSER ---
+
+[2024-05-20 08:10:00] | LEVEL: ERROR | SRC: PaymentGateway | MSG: Timeout waiting for provider response.
+[2024-05-20 08:12:22] | LEVEL: INFO | SRC: CacheManager | MSG: Cache cleared for user_102.
+
+ERROR_CRITICAL_SYSTEM_FAILURE_NO_DATE_HERE  <-- (Linha malformada: deve ser tratada como erro de parsing)
+
+[20/05/2024 08:15:30] | LEVEL: DEBUG | SRC: InternalAPI | MSG: TraceID: 550e8400-e29b-41d4-a716-446655440000.
+[2024-05-20 08:20:01] | LEVEL: ERROR | SRC: Storage | MSG: Disk space below 5% on /dev/sda1.
+
+
+[2024-05-20 08:25:00] | LEVEL: INFO | SRC: AuthModule | MSG: User 'guest_44' session started.
+[2024-05-20 08:30:15] | LEVEL: WARN | SRC: DB_Conn | MSG: Retrying connection (Attempt 1).
+[2024-05-20 08:30:17] | LEVEL: WARN | SRC: DB_Conn | MSG: Retrying connection (Attempt 2).
+[2024-05-20 08:30:20] | LEVEL: ERROR | SRC: DB_Conn | MSG: Fatal error: Could not connect to database.
+
+!!! BREAKING CHANGE DETECTED AT 08:35:00 !!!
+
+[2024-05-20 08:40:00] | LEVEL: INFO | SRC: SystemMonitor | MSG: CPU Load at 85%.
+[2024-05-20 08:45:00] | LEVEL: INFO | SRC: BackupSvc | MSG: Daily backup completed.
+EOF: End of Log File

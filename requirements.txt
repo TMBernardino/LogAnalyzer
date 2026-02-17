@@ -1,0 +1,2 @@
+# Dependências do projeto (Python 3.x)
+# Adicionar aqui se usares bibliotecas externas
