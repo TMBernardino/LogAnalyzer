@@ -10,4 +10,4 @@ Ferramenta CLI que processa ficheiros no formato LEAF (Log Event Augmented Forma
 
 - `src/` — código fonte (parsing, leitura, relatório, entrada CLI)
 - `tests/` — testes
-- `system_audit.leaf` — ficheiro de log de exemplo
+- `data/` — ficheiros de log (`.leaf` / `.log`) para análise; podes ter muitos ficheiros aqui
